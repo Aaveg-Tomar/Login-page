@@ -61,7 +61,7 @@ form{
     /* padding-right: 177px; */
     padding-top: 9px;
     margin-bottom: 14px;
-    border: 1px solid black;
+    border: 1px solid rgb(9, 9, 9);
     border-radius: 8px;
     background-color: rgb(229 231 235/var(--tw-bg-opacity));
 }
@@ -82,7 +82,7 @@ form{
     font-size: 128%;
     padding-top: 8px;
     width: 75%;
-    border: 1px solid;
+    border: 1px solid black;
     border-radius: 20px;
 
 }
@@ -106,6 +106,30 @@ form{
     margin-bottom: 10px;
     border: 1px solid black;
     border-radius: 8px;
-    background-color: aqua;
+    background-color: rgb(218, 237, 237);
 }
 
+@media(max-width:500px)
+{
+    .all{
+        display: block;
+       
+    }
+
+    .image{
+        justify-content: center;
+    }
+}
+
+@media(max-width:300px)
+{
+    
+
+    .image{
+        display: none;
+    }
+
+    .e{
+       margin-bottom: -19px;
+    }
+}

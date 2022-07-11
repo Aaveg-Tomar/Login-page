@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
     <section>
@@ -18,15 +19,16 @@
             </div>
             
             <div class="info">
+             
                    <form>
                     <div class="e">
                       <p class="p2">Email Address</p>
-                        <input type="email" id="form1Example1" class="ei" placeholder="john@xyz.com" />
+                        <input type="email" id="form1Example1" class="ei" placeholder="john@xyz.com" / required>
                         
                       </div>
                       <div class="p">
                         <p class="p3">Password</p>
-                        <input type="password" id="form1Example13" class="ei" placeholder="password"/>
+                        <input type="password" id="form1Example13" class="ei" placeholder="password"/ required>
                         
                       </div>
                       <div class="r">
@@ -35,8 +37,8 @@
                         <a href="#!" class="f">Forgot password?</a>
                       </div>
                     <div>
-                        <button id="b"> <p class="p1">Login In</p>
-                            <script src="script.js"></script>
+                        <button id="b"> <p class="p1" onclick="validate()">Login In</p>
+                            
                         </button>
                     </div>
                     <div class="o">
@@ -58,4 +60,6 @@
             </div>
         </div>
     </section>
+
+    <script src="script.js"></script>
 </body>
